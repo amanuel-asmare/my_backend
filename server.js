@@ -90,7 +90,7 @@ app.use((req, res, next) => {
     next();
 });
 
-// MongoDB connection
+// MongoDB connection url
 mongoose
     .connect(process.env.MONGO_URL, {})
     .then(() => {
