@@ -1,0 +1,29 @@
+{
+    "name": "land-administration-backend",
+    "version": "1.0.0",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "@paypal/checkout-server-sdk": "^1.0.3",
+        "@paypal/paypal-server-sdk": "^1.0.0",
+        "axios": "^1.9.0",
+        "bcrypt": "^6.0.0",
+        "body-parser": "^2.2.0",
+        "cors": "^2.8.5",
+        "dotenv": "^16.5.0",
+        "express": "^4.21.2",
+        "google-auth-library": "^9.15.1",
+        "mongoose": "^8.15.0",
+        "morgan": "^1.10.0",
+        "multer": "^1.4.5-lts.2",
+        "nanoid": "^5.1.5",
+        "nodemailer": "^6.10.1",
+        "paypal-rest-sdk": "^1.8.1",
+        "uuid": "^11.1.0"
+    }
+}
