@@ -15,7 +15,7 @@ const notificationRoutes = require('./routes/notifications');
 // Import models
 const SignupNotification = require('./model/SignupNotification');
 const Employee = require('./models/Employee');
-const User = require('./models/User');
+const User = require('models/User');
 const Holder = require('./models/add_holder');
 const Task = require('./models/Task');
 
